@@ -1,10 +1,7 @@
 #include<iostream>
 using namespace std;
 
-int main(){
-
-    int n;
-    cin >> n;
+void pattern(int n){
 
     int i;
     int row;
@@ -55,5 +52,14 @@ int main(){
     for(i=1;i<=2*n-1;i++){
         cout << "*";
     }
+
+}
+
+int main(){
+
+    int n;
+    cin >> n;
+
+    pattern(n);
 
 }
